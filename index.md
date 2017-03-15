@@ -1,25 +1,4 @@
 # Examine OpenGL ES Apps with GAPID
-  
-<div id="qv-wrapper">
-  <div id="qv">
-    <h2>
-      In this document
-    </h2>
-
-    <ul>
-      <li><a href="#who">Who can benefit from GAPID?</a></li>
-      <li>
-        <a href="#display">About GAPID display</a>
-      </li>
-      <li><a href="#begin">Where to go next</a></li>
-    </ul>
-  <h2>See also</h2>
-  <ul>
-    <li><a href="/studio/profile/android-monitor.html">Android Monitor</a></li>
-    <li><a href="/training/graphics/opengl/index.html">Displaying Graphics with OpenGL ES</a></li>
-  </ul>
-  </div>
-</div>
 
 GAPID helps you analyze and debug your apps that use OpenGL ES 2.0 or 3.1.
 It lets you inspect
@@ -32,6 +11,14 @@ including a phone, tablet, Android TV, or Android Auto. Your Android Studio proj
 
 GAPID lets you analyze Android apps written in any language supported by Android Studio projects,
 including Java, C, and C++.
+
+##  In this document
+    * [Who can benefit from GAPID?](#who)
+    * [About GAPID display](#display)
+    * [Where to go next](#begin)
+  ### See also
+    * [Android Monitor](/studio/profile/android-monitor.html)
+    * [Displaying Graphics with OpenGL ES](/training/graphics/opengl/index.html)
 
 <a name="who"></a>
 ## Who can benefit from GAPID?
