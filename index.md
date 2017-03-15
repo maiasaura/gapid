@@ -13,12 +13,13 @@ GAPID lets you analyze Android apps written in any language supported by Android
 including Java, C, and C++.
 
 ##  In this document
-    * [Who can benefit from GAPID?](#who)
-    * [About GAPID display](#display)
-    * [Where to go next](#begin)
-  ### See also
-    * [Android Monitor](/studio/profile/android-monitor.html)
-    * [Displaying Graphics with OpenGL ES](/training/graphics/opengl/index.html)
+* [Who can benefit from GAPID?](#who)
+* [About GAPID display](#display)
+* [Where to go next](#begin)
+
+### See also
+* [Android Monitor](/studio/profile/android-monitor.html)
+* [Displaying Graphics with OpenGL ES](/training/graphics/opengl/index.html)
 
 <a name="who"></a>
 ## Who can benefit from GAPID?
