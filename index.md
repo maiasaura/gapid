@@ -54,7 +54,7 @@ You can also open a GPU trace file stored on your computer.
 
 <p>Figure 1 shows a GPU trace displayed in GAPID.</p>
 <p>
-<img src="/images/debug/am-gpu-debugger-reorg_2-2_2x.png" alt="" width="982"/>
+<img src="/images/am-gpu-debugger-reorg_2-2_2x.png" alt="" width="982"/>
 </p>
 <p class="img-caption"><b>Figure 1</b>. GPU Debugger display.
 </p>
