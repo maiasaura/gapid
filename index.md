@@ -63,7 +63,7 @@ You can also open a GPU trace file stored on your computer.
 ## Where to go next
 
 To take a GPU trace from a project, see
-[Capture a GPU Trace](/studio/debug/am-gpu-debugger-trace.html).
+[Capture a GPU Trace](/capture-trace.html).
 
 For instructions on using GAPID, see
 <a href="/studio/debug/am-gpu-debugger-analysis.html">[Analyze a Trace in GAPID](/studio/debug/am-gpu-debugger-analysis.html).
