@@ -1,4 +1,4 @@
-# Capture a GPU Trace</title>
+# Capture a GPU Trace
 
 ## In this document
 * [GPU trace files](#files)
