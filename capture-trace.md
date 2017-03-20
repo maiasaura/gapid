@@ -107,58 +107,56 @@ steps:
 href="/studio/run/rundebugconfig.html#profiling-tab">run/debug
 configuration settings</a> for GAPID as follows: </li>
 <ol type="a">
- <li>Select **Run** > **Edit Configurations**.
- <li>Click the **Profiling** tab.
- <li>Make sure that **Capture GPU Commands** is selected so you can
+<li>Select <b>Run</b> > <b>Edit Configurations</b>.
+<li>Click the <b>Profiling</b> tab.
+ <li>Make sure that <b>Capture GPU Commands</b> is selected so you can
 perform GPU tracing.</li>
 
 
 <p>
-If the **GPU Tools Missing** dialog appears, you need to install the GPU Debugging
-tools as follows. In the dialog, click **OK**. In the **Install Missing
-Components** dialog, click **Finish** to complete the installation.
+If the <b>GPU Tools Missing</b> dialog appears, you need to install the GPU Debugging
+tools as follows. In the dialog, click <b>OK</b>. In the <b>Install Missing
+Components</b> dialog, click <b>Finish</b> to complete the installation.
 </p>
 
-  <li>In the **Run/Debug Configurations**
-dialog, click **OK**.</li>
+  <li>In the <b>Run/Debug Configurations</b>
+dialog, click <b>OK</b>.</li>
 </ol>
 <p>
-<p class="note">**Tip:** You can define separate <a
-href="/studio/run/rundebugconfig.html">run/debug
+<p class="note"><b>Tip:</b> You can define separate <a
+href="http://developer.android.com/studio/run/rundebugconfig.html">run/debug
 configurations</a> for tracing, running, and debugging your app. This helps
 you to quickly switch between operations.
 </p>
 <li>Connect an Android hardware device to your USB port.</li>
 <li>
-If the **Allow USB Debugging** dialog appears on the device, click
-**OK**.
+If the <b>Allow USB Debugging</b> dialog appears on the device, click
+<b>OK</b>.
 </li>
 <p>
 This dialog typically appears on your home screen (for example, after you log
 in), not on the boot screen. If you don’t allow USB debugging, Android Studio
-shows your device as **OFFLINE**, and you can’t perform a GPU
+shows your device as <b>OFFLINE</b>, and you can’t perform a GPU
 trace.
 </p>
 <li>Run your project on the hardware device as follows:
 <ol type="a">
- <li>Select **Run** > **Run**, or click
-**Run**
-<img src="/studio/images/buttons/toolbar-run.png" class="inline-icon" alt="" />.
- <li>In the **Select Deployment Target **dialog, select the
-hardware device, and then click **OK**.</li>
-</li>
+ <li>Select <b>Run</b> > <b>Run</b>, or click
+<b>Run</b>.
+ <li>In the <b>Select Deployment Target</b> dialog, select the
+hardware device, and then click <b>OK</b>.
 <p>
-The **Graphics Trace** dialog appears in Android Studio.
+The <b>Graphics Trace</b> dialog appears in Android Studio.
 </p>
 
 <p>
-The **Waiting For Debugger** dialog appears on the device.
-</p></ol>
+The <b>Waiting For Debugger</b> dialog appears on the device.
+</p></li></ol>
 
-<li>In the **Graphics Trace** dialog, optionally change the GPU trace file name
-(without an extension), and then click **Trace**.</li>
+<li>In the <b>Graphics Trace</b> dialog, optionally change the GPU trace file name
+(without an extension), and then click <b>Trace</b>.</li>
 <p>
-The **Graphics Trace** dialog appears. First, the tool attaches the
+The <b>Graphics Trace</b> dialog appears. First, the tool attaches the
 trace library.
 Next, it starts the trace.
 </p>
@@ -167,20 +165,20 @@ Next, it starts the trace.
 If your device doesn’t support GPU tracing, you receive an error:
 </p>
 <p>
-**GAPID does not currently support tracing on this
-device**.
+<b>GAPID does not currently support tracing on this
+device</b>.
 </p>
 
 <li>Interact with your app on the hardware device.</li>
 <p>
-As long as the **MB** value in the **Graphics Trace** dialog
+As long as the <b>MB</b> value in the <b>Graphics Trace</b> dialog
 keeps rising while you interact with the
 app, the GPU trace is proceeding normally.
 </p>
-<li>To end the GPU trace, in the **Graphics Trace** dialog, click
-**Stop**.</li>
+<li>To end the GPU trace, in the <b>Graphics Trace</b> dialog, click
+<b>Stop</b>.</li>
 <p>
-The trace opens in the <a href="/studio/debug/am-gpu-debugger-analysis.html">GPU Debugger</a>.
+The trace opens in the <a href="/analyze-trace.html">GPU Debugger</a>.
 </p>
 <p>
 Android Studio creates a GPU trace file with an extension of
@@ -197,7 +195,7 @@ name, year, month, day, hour, minute, and second of the capture, for example,
 Monitor</a>. -->
 </li>
 <p>
-You can view your saved GPU traces in the **Captures** window. See
+You can view your saved GPU traces in the <b>Captures</b> window. See
 <a href="#saved">View a saved GPU trace file</a>.
 </p>
 </ol>
@@ -313,46 +311,29 @@ name, year, month, day, hour, minute, and second of the capture, for example,
 
 
 <h2 id="saved">View a saved GPU trace file</h2>
-<p>
+
 After you perform a GPU trace, Android Studio automatically stores it so you can view
 it again. It places the file in the `captures/` directory of the
 project where you took the GPU trace. You can open a GPU trace file from the
 **Captures** window for a project, or by selecting the file on
 disk.
-</p>
-<p>
+
 To open a GPU trace file from the **Captures** window, follow these
 steps:
-</p><ol>
-<li>Open an Android Studio project.
-<li>Select **View** > **Tools Windows** >
-**Captures**.</li>
-<p>
-The **Captures** window appears.
-</p>
-<li>Open the **GFX Trace** folder.
-<li>Double-click the trace file to view it in GAPID.</li>
-<p>
-The <a href="/studio/debug/am-gpu-debugger-analysis.html">GPU Debugger</a> appears.
-</p>
-</ol>
-<p>
+
+1. Open an Android Studio project.
+1. Select **View** > **Tools Windows** > **Captures**. The **Captures** window appears.
+1. Open the **GFX Trace** folder.
+1. Double-click the trace file to view it in GAPID. The <a href="/studio/debug/am-gpu-debugger-analysis.html">GPU Debugger</a> appears.
+
 To open a GPU trace file stored on your development computer, follow these
 steps:
-</p><ol>
-<li>Open an Android Studio project.
-<li>Select **File** > **Open**.
-<li>In the **Open File or Project** dialog, select the GPU trace,
-and then click **OK**.</li>
-<p>
-Android Studio typically places GPU trace files in the
-`AndroidStudioProjects/<em>project-name</em>/captures/` directory.
 
-<li>Open the **GFX Trace** folder.
-<li>Double-click the trace file to view it in GAPID.</li>
-<p>
-The <a href="/studio/debug/am-gpu-debugger-analysis.html">GPU Debugger</a> appears.
-</p>
-</ol>
-
-
+1. Open an Android Studio project.
+1. Select **File** > **Open**.
+1. In the **Open File or Project** dialog, select the GPU trace, and then click **OK**.
+  Android Studio typically places GPU trace files in the
+  `AndroidStudioProjects/<em>project-name</em>/captures/` directory.
+1. Open the **GFX Trace** folder.
+1. Double-click the trace file to view it in GAPID. The <a
+  href="/studio/debug/am-gpu-debugger-analysis.html">GPU Debugger</a> appears.
